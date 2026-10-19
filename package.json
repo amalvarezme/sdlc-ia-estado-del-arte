@@ -1,0 +1,13 @@
+{
+  "name": "sdlc-ia-estado-del-arte",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sitio React sin build remoto para GitHub Pages. Fuente TSX compilada con TypeScript.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check app.js && node tests/check.mjs",
+    "serve": "npx http-server . -p 4173 -c-1"
+  },
+  "engines": {"node": ">=20"}
+}
